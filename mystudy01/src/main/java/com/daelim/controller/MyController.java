@@ -17,7 +17,7 @@ public class MyController {
 	
 	@GetMapping("/test01")
 	public String test01() {
-		System.out.println("아니 커밋이 안되잖아요");
+		System.out.println("아니 커밋이 왜안되냐고");
 		return "index";
 	}
 	
