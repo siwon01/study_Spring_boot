@@ -17,6 +17,7 @@ public class MyController {
 	
 	@GetMapping("/test01")
 	public String test01() {
+		System.out.println("아니 커밋이 안되잖아요");
 		return "index";
 	}
 	
@@ -32,6 +33,7 @@ public class MyController {
 		System.out.println("이름 : " + name + ", 나이 : " + age);
 		return "index";
 	}
+	
 	
 	
 
